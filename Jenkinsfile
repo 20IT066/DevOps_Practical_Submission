@@ -17,7 +17,7 @@ pipeline {
                 script {
                     echo "building the spring application"
                     sh 'mvn package'
-                    sh 'mvn test'
+
                 }
             }
         }
